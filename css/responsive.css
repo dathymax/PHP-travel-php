@@ -1,0 +1,89 @@
+/* ------------- Mobile & Tablet ------------- */
+
+@media (max-width: 1023px) {
+    /* ---------------------- Slider ---------------------- */
+    .slider {
+        margin-top: var(--header-height);
+    }
+    
+    .slider__background-img-mobile-tablet {
+        display: block;
+    }
+    
+}
+
+
+/* ----------------- Mobile ----------------- */
+
+@media (max-width: 740px) {
+    /* --------------------- Slider --------------------- */
+    .slider__small-title {
+        --size: 48px;
+    }
+    
+    .slider__big-title {
+        --size: 70px;
+    }
+    
+    .slider__introduce {
+        --size: 17px;
+    }
+    
+    .footer__logo-img {
+        width: 60%;
+    }
+    
+    .footer {
+        padding: 35px 10px 80px;
+    }
+}
+
+
+/* ----------------- Tablet ----------------- */
+
+@media (max-width: 1023px) and (min-width:740px) {
+     .footer {
+        padding: 35px 40px 80px;
+    }
+}
+
+/* Other size */
+@media (min-width: 550px) and (max-width: 739px) {
+   
+}
+
+@media (max-width: 550px) and (min-width: 400px) {
+    /* --------------------- Slider --------------------- */
+    .slider__small-title {
+        --size: 40px;
+    }
+    
+    .slider__big-title {
+        --size: 60px;
+    }
+    
+    .slider__introduce {
+        --size: 14px;
+    }
+    
+}
+
+@media (max-width: 400px) {
+    /* --------------------- Slider --------------------- */
+    .slider__small-title {
+        --size: 30px;
+    }
+    
+    .slider__big-title {
+        --size: 50px;
+    }
+    
+    .slider__introduce {
+        --size: 12px;
+    }
+    
+}
+
+@media (max-width: 470px) {
+
+}
